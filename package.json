@@ -1,0 +1,17 @@
+{
+  "name": "magic-button-all",
+  "version": "0.0.0",
+  "scripts": {
+    "lib": "ng-packagr -p lib/package.json"
+  },
+  "devDependencies": {
+    "@angular/common": "^5.2.8",
+    "@angular/compiler": "^5.2.8",
+    "@angular/compiler-cli": "^5.2.8",
+    "@angular/core": "^5.2.8",
+    "ng-packagr": "^2.2.0",
+    "tsickle": "^0.27.2",
+    "tslib": "^1.9.0",
+    "typescript": "^2.7.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/magic-library-button.umd.js",
+  "module": "../esm5/magic-library-button.js",
+  "es2015": "../esm2015/magic-library-button.js",
+  "typings": "magic-library-button.d.ts",
+  "metadata": "magic-library-button.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "name": "@magic/library/button"
+}
