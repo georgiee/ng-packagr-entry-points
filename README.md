@@ -1,4 +1,5 @@
 # ng-packagr entry points problems
+Related to https://github.com/dherges/ng-packagr/issues/677
 
 ## Run
 1. npm install ( *Skip if you want, build checked in*)
