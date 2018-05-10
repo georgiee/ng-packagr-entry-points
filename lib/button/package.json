@@ -1,5 +1,12 @@
 {
+  "name": "@magic/libaray/button",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0"
+  },
   "ngPackage": {
+    "dest": "../../lib-dist/button",
     "lib": {
       "entryFile": "public_api.ts"
     }

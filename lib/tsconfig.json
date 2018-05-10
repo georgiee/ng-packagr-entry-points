@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "baseUrl": "../foo",
+    "rootDir": "./foo",
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "sourceMap": false,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "outDir": "tsconfig",
+    "declaration": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": false,
+    "lib": [
+      "es5",
+      "es2015",
+      "es2016",
+      "es2017"
+    ],
+    "paths": {
+      "@magic/library/button": [
+        "./button"
+      ]
+    }
+  },
+  "exclude": [
+    ".ng_pgk_build",
+    "../../node_modules"
+  ],
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": true
+  }
+}
