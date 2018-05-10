@@ -1,14 +1,14 @@
-import { Directive, Input } from '@angular/core';
+import {Component} from "@angular/core";
 
-@Directive({
-  selector: '[magic-foo]',
-  host: {
-    '[class.magic-foo-applied]': 'true'
-  }
+@Component({
+	selector: '[magic-foo]',
+	template: `
+      <div class="magic-foo-applied" magic-button></div>`
+
 })
 
 export class FooDirective {
-  constructor() {
-    console.log('hello from foo');
-  }
+	constructor() {
+		console.log('hello from foo');
+	}
 }
